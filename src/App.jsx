@@ -9,7 +9,7 @@ import ScanProgress from './pages/ScanProgress';
 import { Placeholder } from './pages/Placeholder';
 
 export default function App() {
-  return <BrowserRouter> basename="/SecureMailScope">
+  return <BrowserRouter basename="/SecureMailScope">
     <AppShell>
       <Routes>
         <Route path="/" element={<Dashboard />} />
