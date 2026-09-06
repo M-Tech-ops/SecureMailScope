@@ -9,16 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "latest",
     "@vitejs/plugin-react": "latest",
     "lucide-react": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-router-dom": "latest",
     "recharts": "latest",
-    "tailwindcss": "latest",
-    "@tailwindcss/vite": "latest"
+    "tailwindcss": "latest"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "latest"
   }
 }
